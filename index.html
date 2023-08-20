@@ -35,7 +35,7 @@
                     <h2 class="text-[40px] text-[#111] font-semibold pb-6">Kitchenware</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         <!-- One card -->
-                        <div class="bg-white text-center p-4 rounded-lg">
+                        <div class="bg-white text-center p-4 rounded-lg" onclick="prod1(this)">
                             <div class="bg-[#F8F8F8] px-20 py-7 rounded-lg text-center flex justify-center">
                                 <img src="./images/prod1.png" alt="">
                             </div>
@@ -76,7 +76,7 @@
                                         stroke-linejoin="round" />
                                 </svg>
                             </div>
-                            <h3 class="text-[#111] font-semibold text-[20px]">K. Accessories</h3>
+                            <h3 class="text-[#111] font-semibold text-[20px]" id="Accessories">K. Accessories</h3>
                             <p class="text-[#11111180] text-[20px] font-normal">39.00 TK</p>
                         </div>
                         <!-- Two card -->
@@ -322,6 +322,7 @@
 
                     </div>
                     <div class=" bg-white rounded-lg px-5 pt-5 mt-5">
+                        <div id="selected-item"></div>
                         <div style="border: 1px solid#11111126;" class="my-1"></div>
                         <h3 class="text-[24px] text-[#111] font-medium ">Total price: <span>0</span></h3>
                         <h3 class="text-[24px] text-[#111] font-medium ">Discount: <span>0</span></h3>
