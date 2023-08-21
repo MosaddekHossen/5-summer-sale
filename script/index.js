@@ -23,6 +23,14 @@ function handlerClickBtn(target) {
     totalFiled.innerText = totalPriceFinal;
 }
 
+// function resetValue(){
+//     totalFinal.value = " ";
+// }
+// console.log(resetValue)
+
+// function resetValue() {
+//     document.body.style.body = 'red';
+// }
 // const applyBtn = document.getElementById('applyId');
 // applyBtn.addEventListener('click',function(){
 
